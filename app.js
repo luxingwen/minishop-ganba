@@ -4,7 +4,7 @@
 //请修改开发者工具中【详情】->【AppID】改为自己的Appid
 //请前往后台【小程序】->【小程序配置】填写自己的 appId and AppSecret
 // const URL ='';
-const URL ='http://hhshop.biggerforum.org/index.php';
+const URL ='https://hhshop.biggerforum.org/index.php';
 
 const util = require('utils/util.js');
 
@@ -17,19 +17,19 @@ App({
     var that = this;
     if (option.query.hasOwnProperty('scene')){
       switch (option.scene) {
-        //扫描小程序码
+        // 扫描小程序码
         case 1047:
           that.globalData.code = option.query.scene;
           break;
-        //长按图片识别小程序码
+        // 长按图片识别小程序码
         case 1048:
           that.globalData.code = option.query.scene;
           break;
-        //手机相册选取小程序码
+        // 手机相册选取小程序码
         case 1049:
           that.globalData.code = option.query.scene;
           break;
-        //直接进入小程序
+        // 直接进入小程序
         case 1001:
           that.globalData.spid = option.query.scene;
           break;
