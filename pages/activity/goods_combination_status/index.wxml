@@ -18,9 +18,9 @@
          <view class='name acea-row row-center-wrapper'>
            剩余
            <view class='time font-color acea-row row-center-wrapper'>
-              <text>{{countDownHour || 00}}</text>：
-              <text>{{countDownMinute || 00}}</text>：
-              <text>{{countDownSecond || 00}}</text>
+              <text>{{countDownHour || '00'}}</text>：
+              <text>{{countDownMinute || '00'}}</text>：
+              <text>{{countDownSecond || '00'}}</text>
            </view>
            结束
          </view>

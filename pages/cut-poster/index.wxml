@@ -11,9 +11,9 @@
        </view>
        <view class='money-y'>原价：￥1110.00<text class='text'>还差 <text class='font-color'>1人</text> 拼团成功</text></view>
        <view class='border'>
-          <view class='pictrue'><image src='/images/banner.jpg'></image></view>
+          <!-- <view class='pictrue'><image src='/images/banner.jpg'></image></view> -->
           <view class='wemtip'>——   长按识别或扫描二维码进入   ——</view>
-          <view class='ewm'><image src='/images/ewm.jpg'></image></view>
+          <!-- <view class='ewm'><image src='/images/ewm.jpg'></image></view> -->
        </view>
      </view>
    </view>
